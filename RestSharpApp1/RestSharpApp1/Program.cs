@@ -13,12 +13,15 @@ namespace RestSharpApp1
         //Main class where the code is executed
         static void Main(string[] args)
         {
-            //create a string variable to hold the url of the fake API:
+        //create a string variable to hold the url of the fake API:
             string url = 'https://jsonplaceholder.typicode.com/todos/1';
 
-            //make a rest client:
-            //this client can take the url of the API as a parameter
+        //make a rest client:
+        //this client can take the url of the API as a parameter. This 'client' object is an istance of the 'RestClient' class)
             var client = new RestClient(url);
+
+            //create our request (object). (It is an instance of the 'RestRequest' class:
+            var request = new RestRequest();
 
 
         }
