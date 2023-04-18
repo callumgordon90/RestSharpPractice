@@ -20,8 +20,13 @@ namespace RestSharpApp1
         //this client can take the url of the API as a parameter. This 'client' object is an istance of the 'RestClient' class)
             var client = new RestClient(url);
 
-            //create our request (object). (It is an instance of the 'RestRequest' class:
+            //create our request (object). (It is an instance of the 'RestRequest' class):
             var request = new RestRequest();
+
+            //now we can get our response from our 'GET' request petition:
+            //It is a client.get because it is a 'GET' request. And we pass in the 'request' as a parameter.
+            //(Even though 'request' is an empty object at this point).
+            var response = client.Get(request);
 
 
         }
