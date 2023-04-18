@@ -28,8 +28,10 @@ namespace RestSharpApp1
             //(Even though 'request' is an empty object at this point).
             var response = client.Get(request);
 
-
-            Console.WriteLine("Placeholder Text");
+            //This Console.WriteLine method will return the response from the GET request.
+            //NOTE: 'response' on its own will return: 'RestSharp.RestResponse'
+            //Whereas 'response.Content' returns the JSON. The 'ToString' method will covert it to string form (?)
+            Console.WriteLine(response.Content.ToString());
             Console.ReadLine();
 
         }
