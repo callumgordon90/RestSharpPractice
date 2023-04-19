@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\RestSharpApp1",
+    "\\RestSharpApp1\\RestSharpApp1"
   ],
+  "SelectedNode": "\\RestSharpApp1\\RestSharpApp1\\App.config",
   "PreviewInSolutionExplorer": false
 }
