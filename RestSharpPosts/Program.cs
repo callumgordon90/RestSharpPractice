@@ -23,6 +23,10 @@ namespace RestSharpPosts
             //The object 'request' is an instance of the 'RestRequest' class.
             var request = new RestRequest ();
 
+            //What we want to do here is send a post request instead of a get request:
+
+
+
             Console.WriteLine();
 
             Console.ReadLine();
