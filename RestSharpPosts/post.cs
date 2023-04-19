@@ -17,5 +17,7 @@ namespace RestSharpPosts
         public string title { get; set; }
 
         //Now we can create an object from this ('post') class, and put in the values that we want for these three attributes,
-        //and convert it to JSON and send it with our request 
+        //and convert it to JSON and send it with our request
+
+    }
 }

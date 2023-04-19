@@ -8,7 +8,7 @@ using System.Web.UI;
 
 namespace RestSharpPosts
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
@@ -18,21 +18,24 @@ namespace RestSharpPosts
 
             //The client is the entity which launches the request to the external API. Here the object 'client' is an instance of the
             //class 'RestClient', and takes the destination enpoint (url) as a parameter to the method.
-            var client = new RestClient (url);
+            var client = new RestClient(url);
 
             //The object 'request' is an instance of the 'RestRequest' class.
-            var request = new RestRequest ();
+            var request = new RestRequest();
 
             //What we want to do here is send a post request instead of a get request:
 
-            //here we create the body object/body variable, which is a new instance of the 'post' class with attributes set:
+            //Here we create the body object/body variable, which is a new instance of the 'post' class with attributes set:
             var body = new post { body = "This is the test body", title = "test post request", userId = 2};
 
-            //now we add the body object to our request ..but/and we are going to turn it into JSON so that the external API can read it
+            //now we add the body object to our request ..but/and we are going to turn it into JSON so that the external API can read it:
+            request.AddJsonBody(body);
+
+            //Here we create our response:
+            var response = client.Post(request);
             
-
-
-            Console.WriteLine();
+            //Now the response should be printed in the console along with its status code:
+            Console.WriteLine(response.StatusCode.ToString() + "     " + response.Content.ToString());
 
             Console.ReadLine();
 
