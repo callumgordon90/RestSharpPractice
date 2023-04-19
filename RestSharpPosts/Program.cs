@@ -25,6 +25,11 @@ namespace RestSharpPosts
 
             //What we want to do here is send a post request instead of a get request:
 
+            //here we create the body object/body variable, which is a new instance of the 'post' class with attributes set:
+            var body = new post { body = "This is the test body", title = "test post request", userId = 2};
+
+            //now we add the body object to our request(?) ..but we are going to turn it into JSON
+            
 
 
             Console.WriteLine();
