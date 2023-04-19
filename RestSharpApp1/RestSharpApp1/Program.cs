@@ -30,6 +30,8 @@ namespace RestSharpApp1
             //now we can get our response from our 'GET' request petition:
             //It is a client.get because it is a 'GET' request. And we pass in the 'request' as a parameter.
             //(Even though 'request' is an empty object at this point).
+
+            //the petition 'Get' made from the object 'client', taking 'request' as a parameter, returns an object called 'response'
             var response = client.Get(request);
 
             //This Console.WriteLine method will return the response from the GET request.
