@@ -28,7 +28,7 @@ namespace RestSharpPosts
             //here we create the body object/body variable, which is a new instance of the 'post' class with attributes set:
             var body = new post { body = "This is the test body", title = "test post request", userId = 2};
 
-            //now we add the body object to our request(?) ..but we are going to turn it into JSON
+            //now we add the body object to our request ..but/and we are going to turn it into JSON so that the external API can read it
             
 
 
