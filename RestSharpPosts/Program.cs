@@ -17,7 +17,7 @@ namespace RestSharpPosts
             string url = "https://jsonplaceholder.typicode.com/posts";
 
             //The client is the entity which launches the request to the external API. Here the object 'client' is an instance of the
-            //class 'RestClient', and takes the destination enpoint (url) as a parameter to the method.
+            //class 'RestClient', and takes the destination endpoint (url) as a parameter to the method.
             var client = new RestClient(url);
 
             //The object 'request' is an instance of the 'RestRequest' class.
@@ -26,7 +26,9 @@ namespace RestSharpPosts
             //What we want to do here is send a post request instead of a get request:
 
             //Here we create the body object/body variable, which is a new instance of the 'post' class with attributes set:
-            var body = new post { body = "This is the test body", title = "test post request", userId = 2};
+            //var body = new post { body = "Hola Callum", title = "Estoy aprendiendo C#", userId = 2222};
+            var body = new post();
+            body.userId = 23;
 
             //now we add the body object to our request ..but/and we are going to turn it into JSON so that the external API can read it:
             request.AddJsonBody(body);
@@ -35,7 +37,7 @@ namespace RestSharpPosts
             var response = client.Post(request);
             
             //Now the response should be printed in the console along with its status code:
-            Console.WriteLine(response.StatusCode.ToString() + "     " + response.Content.ToString());
+            Console.WriteLine(response.StatusCode + "\n" + response.Content.ToString());
 
             Console.ReadLine();
 
