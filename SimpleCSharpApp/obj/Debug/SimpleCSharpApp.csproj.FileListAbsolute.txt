@@ -1,0 +1,8 @@
+C:\Users\cgordon\Desktop\RestSharpProject\SimpleCSharpApp\bin\Debug\SimpleCSharpApp.exe.config
+C:\Users\cgordon\Desktop\RestSharpProject\SimpleCSharpApp\bin\Debug\SimpleCSharpApp.exe
+C:\Users\cgordon\Desktop\RestSharpProject\SimpleCSharpApp\bin\Debug\SimpleCSharpApp.pdb
+C:\Users\cgordon\Desktop\RestSharpProject\SimpleCSharpApp\obj\Debug\SimpleCSharpApp.csproj.AssemblyReference.cache
+C:\Users\cgordon\Desktop\RestSharpProject\SimpleCSharpApp\obj\Debug\SimpleCSharpApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\cgordon\Desktop\RestSharpProject\SimpleCSharpApp\obj\Debug\SimpleCSharpApp.csproj.CoreCompileInputs.cache
+C:\Users\cgordon\Desktop\RestSharpProject\SimpleCSharpApp\obj\Debug\SimpleCSharpApp.exe
+C:\Users\cgordon\Desktop\RestSharpProject\SimpleCSharpApp\obj\Debug\SimpleCSharpApp.pdb

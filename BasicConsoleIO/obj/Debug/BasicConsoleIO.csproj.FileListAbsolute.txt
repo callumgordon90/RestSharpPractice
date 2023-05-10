@@ -1,0 +1,8 @@
+C:\Users\cgordon\Desktop\RestSharpProject\BasicConsoleIO\bin\Debug\BasicConsoleIO.exe.config
+C:\Users\cgordon\Desktop\RestSharpProject\BasicConsoleIO\bin\Debug\BasicConsoleIO.exe
+C:\Users\cgordon\Desktop\RestSharpProject\BasicConsoleIO\bin\Debug\BasicConsoleIO.pdb
+C:\Users\cgordon\Desktop\RestSharpProject\BasicConsoleIO\obj\Debug\BasicConsoleIO.csproj.AssemblyReference.cache
+C:\Users\cgordon\Desktop\RestSharpProject\BasicConsoleIO\obj\Debug\BasicConsoleIO.csproj.SuggestedBindingRedirects.cache
+C:\Users\cgordon\Desktop\RestSharpProject\BasicConsoleIO\obj\Debug\BasicConsoleIO.csproj.CoreCompileInputs.cache
+C:\Users\cgordon\Desktop\RestSharpProject\BasicConsoleIO\obj\Debug\BasicConsoleIO.exe
+C:\Users\cgordon\Desktop\RestSharpProject\BasicConsoleIO\obj\Debug\BasicConsoleIO.pdb

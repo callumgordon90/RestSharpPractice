@@ -1,0 +1,8 @@
+C:\Users\cgordon\Desktop\RestSharpProject\VsExample1\bin\Debug\VsExample1.exe.config
+C:\Users\cgordon\Desktop\RestSharpProject\VsExample1\bin\Debug\VsExample1.exe
+C:\Users\cgordon\Desktop\RestSharpProject\VsExample1\bin\Debug\VsExample1.pdb
+C:\Users\cgordon\Desktop\RestSharpProject\VsExample1\obj\Debug\VsExample1.csproj.AssemblyReference.cache
+C:\Users\cgordon\Desktop\RestSharpProject\VsExample1\obj\Debug\VsExample1.csproj.SuggestedBindingRedirects.cache
+C:\Users\cgordon\Desktop\RestSharpProject\VsExample1\obj\Debug\VsExample1.csproj.CoreCompileInputs.cache
+C:\Users\cgordon\Desktop\RestSharpProject\VsExample1\obj\Debug\VsExample1.exe
+C:\Users\cgordon\Desktop\RestSharpProject\VsExample1\obj\Debug\VsExample1.pdb

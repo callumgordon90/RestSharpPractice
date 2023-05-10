@@ -1,0 +1,16 @@
+C:\Users\cgordon\Desktop\RestSharpProject\VsExample\bin\Debug\net6.0\VsExample.exe
+C:\Users\cgordon\Desktop\RestSharpProject\VsExample\bin\Debug\net6.0\VsExample.deps.json
+C:\Users\cgordon\Desktop\RestSharpProject\VsExample\bin\Debug\net6.0\VsExample.runtimeconfig.json
+C:\Users\cgordon\Desktop\RestSharpProject\VsExample\bin\Debug\net6.0\VsExample.dll
+C:\Users\cgordon\Desktop\RestSharpProject\VsExample\bin\Debug\net6.0\VsExample.pdb
+C:\Users\cgordon\Desktop\RestSharpProject\VsExample\obj\Debug\net6.0\VsExample.csproj.AssemblyReference.cache
+C:\Users\cgordon\Desktop\RestSharpProject\VsExample\obj\Debug\net6.0\VsExample.csproj.ResolveComReference.cache
+C:\Users\cgordon\Desktop\RestSharpProject\VsExample\obj\Debug\net6.0\VsExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cgordon\Desktop\RestSharpProject\VsExample\obj\Debug\net6.0\VsExample.AssemblyInfoInputs.cache
+C:\Users\cgordon\Desktop\RestSharpProject\VsExample\obj\Debug\net6.0\VsExample.AssemblyInfo.cs
+C:\Users\cgordon\Desktop\RestSharpProject\VsExample\obj\Debug\net6.0\VsExample.csproj.CoreCompileInputs.cache
+C:\Users\cgordon\Desktop\RestSharpProject\VsExample\obj\Debug\net6.0\VsExample.dll
+C:\Users\cgordon\Desktop\RestSharpProject\VsExample\obj\Debug\net6.0\refint\VsExample.dll
+C:\Users\cgordon\Desktop\RestSharpProject\VsExample\obj\Debug\net6.0\VsExample.pdb
+C:\Users\cgordon\Desktop\RestSharpProject\VsExample\obj\Debug\net6.0\VsExample.genruntimeconfig.cache
+C:\Users\cgordon\Desktop\RestSharpProject\VsExample\obj\Debug\net6.0\ref\VsExample.dll

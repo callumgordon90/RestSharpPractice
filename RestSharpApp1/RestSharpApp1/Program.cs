@@ -4,44 +4,81 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using RestSharp;
+using RestSharp.Authenticators;
+using Stock;
+using System.Data.SqlTypes;
+using System.Collections;
+using System.IO;
+using System.Security.Cryptography.X509Certificates;
 
 namespace RestSharpApp1
 {
     //program class of the whole solution
-    class Program
+    public class Program
     {
+
         //Main class where the code is executed
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-        //create a string variable to hold the url of the fake API:
-            string url = "https://jsonplaceholder.typicode.com/todos";
+            Method1  M = new Method1();
 
-        //make a rest client:
-        //this client can take the url of the API as a parameter. This 'client' object is an istance of the 'RestClient' class)
-            var client = new RestClient(url);
+            Console.WriteLine(());
 
-            //create our request (object). (It is an instance of the 'RestRequest' class):
-            var request = new RestRequest();
-
-            //here we are going to add a parameter where id = 1
-            //we add first the id then the value
-            request.AddParameter("id", "2"); 
-
-            //now we can get our response from our 'GET' request petition:
-            //It is a client.get because it is a 'GET' request. And we pass in the 'request' as a parameter.
-            //(Even though 'request' is an empty object at this point).
-
-            //the petition 'Get' made from the object 'client', taking 'request' as a parameter, returns an object called 'response'
-            var response = client.Get(request);
-
-            //This Console.WriteLine method will return the response from the GET request.
-            //NOTE: 'response' on its own will return: 'RestSharp.RestResponse'
-            //Whereas 'response.Content' returns the JSON. The 'ToString' method will covert it to string form (?)
-            Console.WriteLine(response.Content.ToString());
-
-            //This line enables us to read what is happening before it dissaspears
             Console.ReadLine();
 
         }
+
+
+        
+
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        public class Method1
+        {
+
+            string url = "https://l700179-iflmap.hcisbp.eu2.hana.ondemand.com/http/Calidad/ConsultaStock";
+
+
+            var options = new RestClientOptions(url)
+            {
+                Authenticator = new HttpBasicAuthenticator("P2002227617", "438add1cc9758ab33612b28f9be899A_")
+            };
+
+
+            var client = new RestClient(options);
+
+
+            var request = new RestRequest();
+
+            request.RequestFormat = DataFormat.Xml;
+
+            StockRequestBody requestBody = new StockRequestBody()
+            {
+                Material = "9200010"
+            };
+
+            request.AddXmlBody(requestBody, ContentType.Xml);
+
+            var response = client.Post(request);
+
+            StockResponseBody responseBody = client.Serializers.DeserializeContent<StockResponseBody>(response);
+
+            return responseBody;
+
+           
+        }
+
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        public string Method2(SqlString idArticulo) {
+            requestBody = (string)idArticulo;
+
+            return responseBody;
+
+        };
+
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
     }
+
 }

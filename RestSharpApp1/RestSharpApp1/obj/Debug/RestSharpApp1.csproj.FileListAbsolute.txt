@@ -27,3 +27,5 @@ C:\Users\cgordon\Desktop\RestSharpProject\RestSharpApp1\RestSharpApp1\bin\Debug\
 C:\Users\cgordon\Desktop\RestSharpProject\RestSharpApp1\RestSharpApp1\obj\Debug\RestSharpApp1.csproj.CopyComplete
 C:\Users\cgordon\Desktop\RestSharpProject\RestSharpApp1\RestSharpApp1\obj\Debug\RestSharpApp1.exe
 C:\Users\cgordon\Desktop\RestSharpProject\RestSharpApp1\RestSharpApp1\obj\Debug\RestSharpApp1.pdb
+C:\Users\cgordon\Desktop\RestSharpProject\RestSharpApp1\RestSharpApp1\bin\Debug\System.Data.SqlClient.dll
+C:\Users\cgordon\Desktop\RestSharpProject\RestSharpApp1\RestSharpApp1\bin\Debug\System.Data.SqlClient.xml
